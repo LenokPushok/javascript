@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint-conf-airbnb-base',
-    './rules/react',
+    './rules/vue',
     './rules/react-a11y',
   ].map(require.resolve),
   rules: {}
